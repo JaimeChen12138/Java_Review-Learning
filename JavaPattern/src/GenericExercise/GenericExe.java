@@ -18,7 +18,7 @@ public class GenericExe {
     // sort based on (1)first name(2)if name equal than based on the
     // birthdate.
 
-    employees.sort(new Comparator<Employee>() {
+    employees.sort(new Comparator<Employee>() { // anoymous inner class
       @Override
       public int compare(Employee e1, Employee e2) {
         if (!(e1 instanceof Employee && e2 instanceof Employee)){
